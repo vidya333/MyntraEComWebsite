@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap@5.3.3.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<!-- Header Section Start -->
+    <!-- Nav Section Start -->
+    <nav class="navbar navbar-expand-xl bg-white shadow sticky-top px-lg-4 py-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/myntraLogo.png" alt="logo" class="img-fluid" width="70px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-lg-5 mb-2 mb-lg-0">
+              <li class="nav-item dropdown men">
+                <a class="nav-link active dropdown-toggle pt-3" aria-current="page" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">MEN</a>
+                    <ul class="dropdown-menu border-0 rounded-0 text-small table-responsive">
+                        <table class="table">
+                            <tr class="px-xl-4">
+                                <td class="py-3">
+                                    <li><p class="text-red fixed fw-bold ps-1" >Topwear</p></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">T-Shirts</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Casual Shirts</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Formal Shirts</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sweathirts</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sweater</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Jackets</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Blazers & Coats</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Suits</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Rain Jackets</a></li><hr>
+                                    <li><p class="text-red fixed fw-bold ps-1" >Indian & Festive Wear</p></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Kurtas & Kurta Sets</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sherwanis</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Nehru Jackets</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Dhotis</a></li>
+                                    
+                                </td>
+                                <td class="bg-gray px-lg-3 py-3">
+                                    <li><p class="text-red fixed fw-bold ps-1" >Bottom Wear</p></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Jeans</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Casual Trousers</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Formal Trousers</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Shorts</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Track pants & Joggers</a><li>
+                                    <hr>
+                                    <li><p class="text-red fixed fw-bold ps-1">Innerwear & Sleepwear</p></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Briefs and Trunks</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Boxers</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Vests</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sleepwear & Loungewear</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Thermals</a></li>
+                                    <hr>
+                                    <li><p class="text-red fixed fw-bold ps-1">Plus Size</p></li>
+                                </td>
+                                <td class="py-3">
+                                    <li><p class="text-red fixed fw-bold ps-1">Footwear</p></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Casual Shoes</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sports Shoes</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Formal Shoes</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sneakers</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sandals & Floaters</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Flip Flops</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Socks</a></li>
+                                    <hr>
+                                    <li><p class="text-red fixed fw-bold ps-1">Personal Care & Grooming</p></li>
+                                    <li><p class="text-red fixed fw-bold ps-1">Sunglasses & Frames</p></li>
+                                    <li><p class="text-red fixed fw-bold ps-1">Watches</p></li>
+                                </td>
+                                <td class="bg-gray px-lg-3 py-3">
+                                    <li><p class="text-red fixed fw-bold ps-1">Sports & Active Wear</p></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sports Shoes</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sports Sandals</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Active T-Shirts</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Track Pants & Shorts</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Tracksuits</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Jackets & Sweatshirts</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Sports Accessories</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Swimwear</a></li>
+                                    <hr>
+                                    <li><p class="text-red fixed fw-bold ps-1">Gadgets</p></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Smart Wearables</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Fitness Gadgets</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Headphones</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Speakers</a></li>
+                                </td>
+                                <td class="py-3">
+                                    <li><p class="text-red fixed fw-bold ps-1">Fashion Accessories</p></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Wallets</a></li> 
+                                    <li><a class="dropdown-item text-secondary" href="#">Belts</a></li> 
+                                    <li><a class="dropdown-item text-secondary" href="#">Perfumes & Body Mists</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Trimmers</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Deodorants</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Ties, Cufflinks & Pocket Squares</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Accessory Gift Sets</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Caps & Hats</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Mufflers, Scarves & Gloves</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Phone Cases</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Rings & Wristwear</a></li>
+                                    <li><a class="dropdown-item text-secondary" href="#">Helmets</a></li>
+                                    <hr>
+                                    <li><p class="text-red fixed fw-bold ps-1">Bags & Backpacks</p></li>
+                                    <li><p class="text-red fixed fw-bold ps-1">Luggages & Trolleys</p></li>
+                                </td>
+                            </tr>
+                        </table>
+                    </ul>
+              </li>
+              <li class="nav-item dropdown women">
+                <a class="nav-link dropdown-toggle pt-3" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">WOMEN</a>
+                <ul class="dropdown-menu border-0 rounded-0 text-small m-55">
+                    <table class="table">
+                        <tr class="px-xl-4">
+                            <td class="py-3">
+                                <li><p class="text-pink fixed fw-bold ps-1" >Indian & Fusion Wear</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Kurtas & Suits</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Kurtis Tunics & Tops</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sarees</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Ethnic Wear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Leggings, Salwar & Churidars</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Skirts & Palazzos</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Dress Materials</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Lehnga Cholis</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Dupattas & Shawls</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Jackets</a></li><hr>
+                                <li><p class="text-pink fixed fw-bold ps-1" >Belts,Scarves & More</p></li>
+                                <li><p class="text-pink fixed fw-bold ps-1" >Watches & Wearables</p></li>
+                                
+                            </td>
+                            <td class="bg-gray px-lg-3 py-3">
+                                <li><p class="text-pink fixed fw-bold ps-1" >Western Wear</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Dresses</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Tops</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Tshirts</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Jeans</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Trousers & Capris</a><li>
+                                <li><a class="dropdown-item text-secondary" href="#">Shorts & Skirts</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Co-ords</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Playsuits</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Jumpsuits</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Shrugs</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sweater & Sweatshirts</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Jackets & Coats</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Blazers & Waistcoats</a></li>
+                                <hr>
+                                <li><p class="text-pink fixed fw-bold ps-1">Plus Size</p></li>
+                            </td>
+                            <td class="py-3">
+                                <li><p class="text-pink fixed fw-bold ps-1">Maternity</p></li>
+                                <li><p class="text-pink fixed fw-bold ps-1">Sunglasses & Frames</p></li>
+                                <li><p class="text-pink fixed fw-bold ps-1">Footwear</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Flats</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Casual Shoes</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Heels</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Boots</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sport Shoes & Floaters</a></li>
+                                <hr>
+                                <li><p class="text-pink fixed fw-bold ps-1">Sport & Active Wear</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Clothing</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Footwear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sports Accessories</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sports Equipments</a></li>
+                            </td>
+                            <td class="bg-gray px-lg-3 py-3">
+                                <li><p class="text-pink fixed fw-bold ps-1">Lingeri & Sleepwear</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bra</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Briefs</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Shapewear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sleepwear & Loungewear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Swimwear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Camisole & Thermals</a></li>
+                                <hr>
+                                <li><p class="text-pink fixed fw-bold ps-1">Beauty & Personal Care</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Makeup</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Skincare</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Premium Beauty</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Lipsticks</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Fragrances</a></li>
+                            </td>
+                            <td class="py-3">
+                                <li><p class="text-pink fixed fw-bold ps-1">Gadgets</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Smart Wearables</a></li> 
+                                <li><a class="dropdown-item text-secondary" href="#">Fitness Gadgets</a></li> 
+                                <li><a class="dropdown-item text-secondary" href="#">Headphones</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Speakers</a></li>
+                               <hr>
+                               <li><p class="text-pink fixed fw-bold ps-1">Jewellery</p></li>
+
+                                <li><a class="dropdown-item text-secondary" href="#">Fashion Jewellery</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Fine Jewellery</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Earrings</a></li>
+                                <hr>
+                                <li><p class="text-pink fixed fw-bold ps-1">Backpacks</p></li>
+                                <li><p class="text-pink fixed fw-bold ps-1">Handbags,Bags & Wallets</p></li>
+                                <li><p class="text-pink fixed fw-bold ps-1">Luggages & Trolleys</p></li>
+                            </td>
+                        </tr>
+                    </table>
+                </ul>
+              </li>
+              <li class="nav-item dropdown kids">
+                <a class="nav-link dropdown-toggle pt-3" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">KIDS</a>
+                <ul class="dropdown-menu border-0 rounded-0 text-small m-134" >
+                    <table class="table">
+                        <tr class="px-xl-4">
+                            <td class="py-3">
+                                <li><p class="text-orange fixed fw-bold ps-1" >Boys Clothing</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">T-Shirts</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Shirts</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Shorts</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Jeans</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Trousers</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Clothing Sets</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Ethnic Wear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Track Pant & Payjamas</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Jacket, Sweater & Sweatshirts</a><li>
+                                <li><a class="dropdown-item text-secondary" href="#">Party Wear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Innerwear & Thermals</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Nightwear & Loungewear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Value Packs</a></li>
+                            </td>
+                            <td class="bg-gray px-lg-3 py-3">
+                                <li><p class="text-orange fixed fw-bold ps-1" >Girls Clothing</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Dresses</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Tops</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Tshirts</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Clothing Sets</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Lehnga Choli</a><li>
+                                <li><a class="dropdown-item text-secondary" href="#">Kurta Set</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Party wear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Dungaree & Jumpsuits</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Skirts & Shorts</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Tights & Leggings</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Jeans ,Trousers & Capris</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Jacket, Sweater & Sweatshirts</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Innerwear & Thermals</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Nightwear & Loungewear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Value Packs</a></li>
+                            </td>
+                            <td class="py-3">
+                                <li><p class="text-orange fixed fw-bold ps-1">Footwear</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Casual Shoes</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Flipflops</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sport Shoes</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Flats</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sandals</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Heels</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">School Shoes</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Socks</a></li>
+                                <hr>
+                                <li><p class="text-orange fixed fw-bold ps-1">Toys & Games</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Learning & Development</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Activity Toys</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Soft Toys</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Action Figure/Play Set</a></li>
+
+                            </td>
+                            <td class="bg-gray px-lg-3 py-3">
+                                <li><p class="text-orange fixed fw-bold ps-1">Infants</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bodysuits</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Rompers & Sleepsuits</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Clothing Sets</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Tshirts & Tops</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Dresses</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bottom Wear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Winter wear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Innerwear & Sleepwear</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Infant Care</a></li>
+                                <hr>
+                                <li><p class="text-orange fixed fw-bold ps-1">Home & Bath</p></li>
+                                <li><p class="text-orange fixed fw-bold ps-1">Personal Care</p></li>
+                            
+                            </td>
+                            <td class="py-3">
+                                <li><p class="text-orange fixed fw-bold ps-1">Kids Accessories</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bags & Backpacks</a></li> 
+                                <li><a class="dropdown-item text-secondary" href="#">Watches</a></li> 
+                                <li><a class="dropdown-item text-secondary" href="#">Jewellery & Hair accessory</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sunglasses</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Masks & Protective Gears</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Caps & Hats</a></li>
+                                <hr>
+                                <li><p class="text-orange fixed fw-bold ps-1">Brands</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">H&M</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Max Kids</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Pantaloons</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">United Colors Of Benetton Kids</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">YK</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">U.S.Polo Assn. Kids</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Mothercare</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">HRX</a></li>
+
+                            </td>
+                        </tr>
+                    </table>
+                </ul>
+              </li>
+              <li class="nav-item dropdown home">
+                <a class="nav-link dropdown-toggle pt-3" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">HOME & LIVING</a>
+                <ul class="dropdown-menu border-0 rounded-0 text-small m-190" >
+                    <table class="table">
+                        <tr class="px-xl-4">
+                            <td class="py-3">
+                                <li><p class="text-yellow fixed fw-bold ps-1">Bed Linen & Furnishing</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bed Runners</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Mattress Protectors</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bedsheets</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bedding Sets</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Blankets, Quilts & Dohars</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Pillows $ Pillow Covers</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bed Covers</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Diwan Sets</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Chair Pads & Covers</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sofa Covers</a></li>
+                                <hr>
+                                <li><p class="text-yellow fixed fw-bold ps-1" >Flooring</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Float Runner</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Carpets</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Floor Mats & Dhurries</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Door Mats</a></li>
+                            </td>
+                            <td class="bg-gray px-lg-3 py-3">
+                                <li><p class="text-yellow fixed fw-bold ps-1" >Bath</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bath Towels</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hand & Face Towels</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Beach Towels</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Towel Sets</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bath Rugs</a><li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bath Robes</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bathroom Accessories</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Shower Curtains</a></li>
+                                <hr>
+                                <li><p class="text-yellow fixed fw-bold ps-1">Lamps & Lighting</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Floor Lamps</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Ceiling Lamps</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Table Lamps</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Wall Lamps</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Outdoor Lamps</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">String Lights</a></li>
+                            </td>
+                            <td class="py-3">
+                                <li><p class="text-yellow fixed fw-bold ps-1">Home Decor</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Plants & Planters</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Aromas & Candles</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Clocks</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Mirrors</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Wall Decor</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Festive Decor</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Pooja Essentials</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Wall Shelves</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Fountains</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Showpiece & Vases</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Ottoman</a></li>
+                                <li><p class="text-yellow fixed fw-bold ps-1">Cushions & Cushion Covers</p></li>
+                                <li><p class="text-yellow fixed fw-bold ps-1">Curtains</p></li>
+                            </td>
+                            <td class="bg-gray px-lg-3 py-3">
+                                <li><p class="text-yellow fixed fw-bold ps-1">Home Gift Sets</p></li>
+                                <li><p class="text-yellow fixed fw-bold ps-1">Kitchen & Table</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Table Runners</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Dinneware & Serveware</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Cups & Mugs</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bakeware & Cookware</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Kitchen Storage & Tools</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bar & Drinkware</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Table Covers & Furnishings</a></li>
+                                <hr>
+                                <li><p class="text-yellow fixed fw-bold ps-1">Storage</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bins</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hangers</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Organisers</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hooks & Holders</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Laundry Bags</a></li>
+                            </td>
+                            <td class="py-3">
+                                <li><p class="text-yellow fixed fw-bold ps-1">Brands</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">H&M</a></li> 
+                                <li><a class="dropdown-item text-secondary" href="#">Marks & Spencer</a></li> 
+                                <li><a class="dropdown-item text-secondary" href="#">Home Centre</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Spaces</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">D' Decor</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Story@Home</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Pure Home & Living</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Swayam</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Raymond Home</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Maspar</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">My Trident</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Cortina</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Random</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Elementry</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">RQMEE</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">SEJ by Nisha Gupta</a></li>
+                            </td>
+                        </tr>
+                    </table>
+                </ul>
+              </li>
+              <li class="nav-item dropdown beauty">
+                <a class="nav-link dropdown-toggle pt-3" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">BEAUTY</a>
+                <ul class="dropdown-menu border-0 rounded-0 text-small m-321" >
+                    <table class="table">
+                        <tr class="px-xl-4">
+                            <td class="py-3">
+                                <li><p class="text-blue fixed fw-bold ps-1">Makeup</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Lipstick</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Lip Gloss</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Lip Liner</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Mascara</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Eyeliner</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Kajal</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Eyeshadow</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Foundation</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Primer</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Concealer</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Compact</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Nail Polish</a></li>
+                            </td>
+                            <td class="bg-gray px-lg-3 py-3"> 
+                                <li><p class="text-blue fixed fw-bold ps-1">Skincare, Bath & Body</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Cleanser</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Marks & Peel</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Sunscreen</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Serum</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Face Wash</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Eye Cream</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Lip Balm</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Body Lotion</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Body Wash</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Body Scrub</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hand Cream</a></li><hr>
+                                <li><p class="text-blue fixed fw-bold ps-1" >Baby Care</p></li>
+                                <li><p class="text-blue fixed fw-bold ps-1" >Masks</p></li>
+                            
+                            </td>
+                            <td class="py-3">
+                                <li><p class="text-blue fixed fw-bold ps-1" >Hair Care</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Shampoo</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Conditioner</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hair Cream</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hair Oil</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hair Gel</a><li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hair Color</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hair Serum</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hair Accessories</a></li>
+                                <hr>
+                                <li><p class="text-blue fixed fw-bold ps-1">Fragrances</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Perfume</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Deodorant</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Body Mist</a></li>
+
+                                
+                            </td>
+                            <td class="bg-gray px-lg-3 py-3">
+                                <li><p class="text-blue fixed fw-bold ps-1">Appliences</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hair Straightener</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hair Dryer</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Apilator</a></li><hr>
+                                <li><p class="text-blue fixed fw-bold ps-1">Mens Grooming</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Trimmers</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Beard Oil</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Hair Wax</a></li><hr>
+                                <li><p class="text-blue fixed fw-bold ps-1" >Beuty Gift & Makeup Set</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Beauty Gift</a></li>
+                                <li><p class="dropdown-item text-secondary" href="#">Makeup Kit</a></li><hr>
+                                <li><p class="text-blue fixed fw-bold ps-1">Premium Beauty</p></li>
+                                <li><p class="text-blue fixed fw-bold ps-1">Wellness & Hygiene</p></li>
+
+                            </td>
+                            <td class="py-3">
+                                <li><p class="text-blue fixed fw-bold ps-1">Top Brands</p></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Lakme</a></li> 
+                                <li><a class="dropdown-item text-secondary" href="#">Maybelline</a></li> 
+                                <li><a class="dropdown-item text-secondary" href="#">LOreal</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Philips</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Bath & Body Works</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">THE BODY SHOP</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Biotique</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Mamaearth</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Raymond Home</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">MCaffeine</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Nivea</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Lotus Herbals</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">LOreal Professionnel</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">KAMA AYURVEDA</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">M.A.C</a></li>
+                                <li><a class="dropdown-item text-secondary" href="#">Forest Essentials</a></li>
+                            </td>
+                        </tr>
+                    </table>
+                </ul>
+              </li>
+              <li class="nav-item dropdown studio">
+                <a class="nav-link dropdown-toggle pt-3" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">STUDIO
+                <sup class="text-pink"> NEW</sup></a>
+                <ul class="dropdown-menu border-0 rounded-0 text-small m-134" >
+                    <div class="table text-center p-lg-3">
+                        <img src="./assets/img/myntra-studioIcon.jpg" alt="studioIcon" width="103.094px">
+                        <p class="text-normal text-secondary">Your daily inspiration for everything fashion</p>
+                        <img src="./assets/img/myntraStudio.png" alt="myntraStudio" class="studioImg">
+                        <button class="bg-white px-5 py-2 mt-4 text-secondary fw-bold" style="border: 1px solid rgb(172, 167, 167);">
+                            EXPLORE STUDIO  &gt;
+                        </button>
+                    </div>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex searchbox  w-33" role="search">
+                <input class="form-control me-2 bg-gray border-0 ms-xl-3" type="search" placeholder=" &#xf002;  Search for products, brands and more" aria-label="Search" style="font-family:'Roboto', sans-serif,FontAwesome;">
+            </form>
+            <ul class="list-unstyled d-flex mb-lg-0">
+                <li class="nav-item dropdown text-center profile">
+                    <a class="nav-link dropdown-toggle px-lg-3" href="#"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-regular fa-user fs-6"></i>
+                        <p class="text-small fw-bold">Profile</p>
+                    </a>
+                    <ul class="dropdown-menu border-0 shadow p-3 text-small rounded-0" 
+                    style="margin-left: -100px;margin-top: 7px;">
+                        <li class="dropdown-item fw-bold">Hello Vidya</li>
+                        <li class="text-small">9920155447</li><hr>
+                        <li class="dropdown-item">Orders</li>
+                        <li class="dropdown-item">Wishlist</li>
+                        <li class="dropdown-item">Gift Cards</li>
+                        <li class="dropdown-item">Contact Us</li>
+                        <li class="dropdown-item">Myntra Insider
+                            <span class="px-1 text-vsmall" 
+                            style="font-style: italic; background-color: #f41c76;color: #fff;
+                            font-weight: bold; border-radius: 2px;transform: skew(-20deg);"> New</span>
+                        </li><hr>
+                        <li class="dropdown-item">Myntra Credit</li>
+                        <li class="dropdown-item">Coupons</li>
+                        <li class="dropdown-item">Saved Cards</li>
+                        <li class="dropdown-item">Saved VPA</li>
+                        <li class="dropdown-item">Saved Addresses</li><hr>
+                        <li class="dropdown-item">Edit Profile</li>
+                        <li class="dropdown-item">Logout</li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown text-center">
+                    <a class="nav-link dropdown-toggle px-lg-3" href="#"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-regular fa-heart fs-6"></i>
+                        <p class="text-small fw-bold">Wishlist</p>
+                    </a>
+                </li>
+                <li class="nav-item dropdown text-center">
+                    <a class="nav-link dropdown-toggle px-lg-3" href="#"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assets/img/shopping-bag.png" alt="bag" width="16px" class="pb-1">
+                    <p class="text-small fw-bold ">Bag</p>
+                    </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Nav Section End -->
+<!-- Header Section End -->
+<!-- Banner Section start -->
+    <div class="banner pt-lg-5 pb-lg-4">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/img/mainpage/mainpage-banner-1.jpg" alt="banner-1" class="w-100">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/mainpage/mainpage-banner-2.jpg" alt="banner-2" class="w-100">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/mainpage/mainpage-banner-3.jpg" alt="banner-3" class="w-100">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/mainpage/mainpage-banner-4.jpg" alt="banner-4" class="w-100">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/mainpage/mainpage-banner-5.jpg" alt="banner-5" class="w-100">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/mainpage/mainpage-banner-6.jpg" alt="banner-6" class="w-100">
+              </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+<!-- Banner Section End -->
+<!-- Medal Worthy Brands Start -->
+<p class="py-lg-5 px-lg-4 text-heading">MEDAL WORTHY BRANDS TO BAG</p>
+<div class="swiper1 mySwiper1 pt-1 pb-5 overflow-hidden">
+    <div class="swiper-wrapper ">
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img1.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img2.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img3.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img4.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img5.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img6.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img7.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img8.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img9.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img10.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img11.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img12.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img13.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img14.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img15.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img16.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img17.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img18.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img19.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img20.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img21.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img22.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img23.png">
+      </div>
+      <div class="swiper-slide">
+        <img src="./assets/img/mainpage/swiper1-img24.png">
+      </div>  
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
+</div>
+<!-- Medal Worthy Brands End -->
+    
+
+
+
+<!-- Scripts start -->
+<script src="./assets/js/bootstrap@5.3.3.min.js"></script>
+<script src="./assets/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- banner swiper js start -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+  });
+
+  var swiper1 = new Swiper(".mySwiper1", {
+        spaceBetween: 0,
+        slidesPerView: 6,
+        // pagination: {
+        // el: ".swiper-pagination",
+        // clickable: true,
+        // },
+        freeMode: true,
+        loop: true,
+        autoplay: {
+          delay: 2100,
+        },
+        grabCursor: true,
+        breakpoints:{
+            0:{
+                slidesPerView: 1,  
+            },
+            300:{
+                slidesPerView: 2,  
+            },
+            520:{
+                slidesPerView: 2,  
+            },
+            620:{
+                slidesPerView: 3,  
+            },
+            720:{
+                slidesPerView: 4,  
+            },
+            950:{
+                slidesPerView: 5,  
+            },
+            1200:{
+                slidesPerView: 6,  
+            },
+        }
+    });
+</script>
+<!-- banner swiper js end -->
+
+<!-- Script End -->
+</body>
+</html>
