@@ -1,3 +1,0 @@
-http://myntra.myntassets.com/assets/premium/temp/kids.png
-
-Cannot download image; Failed to fetch

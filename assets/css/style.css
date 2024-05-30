@@ -30,12 +30,22 @@ body{
 .text-normal{
     font-size: 16px;
     letter-spacing: normal;
+    color: #9c9696;
 }
 .text-heading{
     font-size: 28.8px;
     font-weight: 700;
     letter-spacing: 4.32px;
     color: #3e4152;
+}
+.text-footheading{
+    font-size: 12px;
+    font-weight: 700;
+    color : #3e4152;
+}
+.text-footers{
+    font-size: 15px;
+    color : #7e7f88;
 }
 .w-33{width: 33%;}
 .m-55{margin-left: -55px;}
@@ -124,17 +134,59 @@ table tr td li{
 .studioImg{
     max-width: 514px;
 }
-/* Navbar Responsive */
+.profileDropdown{
+    margin-left: -100px;
+    margin-top: 7px;
+}
+.table>:not(caption)>*>* {
+    border-bottom-width: 0;
+}
+/* Medal Section Starts */
+
+.swiper1 img{
+    height: 295px;
+    width: 222px;
+}
+.swiper-horizontal>.swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom:0px;
+    top: 100;
+    left: 0;
+    right: 0;
+ }
+/* Shop by Category Section Starts */
+
+.flex-wrap img{
+    width: 222px;
+    height: 294px;
+    padding: 15px;
+}
+/* Footer Section Starts */
+footer a{
+    text-decoration: none;
+    color: #5c5858;
+}
+
+/* Responsive section starts */
 @media screen and (max-width:1200px) {
     .table tr{
         display: grid;
         grid-template-columns: auto auto auto auto;
         column-gap: 12px;
     }
+    .w-33{width: 100%;}
     .m-55{margin-left: 0px;}
     .m-134{margin-left: 0px;}
     .m-190{margin-left: 0px;}
     .m-321{margin-left: 0px;}
+    .profileDropdown{
+        margin-left: 9px;
+        
+    }
+    .container-fluid{
+        --bs-gutter-x:0;
+    }
 }
 @media screen and (max-width:992px) {
     .table tr{
@@ -152,6 +204,13 @@ table tr td li{
     .studioImg{
         max-width: 650px;
     }
+    .text-heading{
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 2.32px;
+        color: #3e4152;
+        padding-left: 9px;
+    }
 }
 @media screen and (max-width:650px) {
     .studioImg{
@@ -167,10 +226,34 @@ table tr td li{
     .studioImg{
         max-width: 400px;
     }
+    .flex-wrap img{
+        width: 222px;
+        height: 294px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:431px) {
+    .flex-wrap img{
+        width: 200px;
+        height: 270px;
+        padding: 5px;
+    }
 }
 @media screen and (max-width:400px){
     .studioImg{
         max-width: 300px;
+    }
+    .flex-wrap img{
+        width: 150px;
+        height: 220px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:300px){
+    .flex-wrap img{
+        width: 130px;
+        height: 170px;
+        padding: 5px;
     }
 }
 @media screen and (max-width:350px) {
@@ -184,11 +267,4 @@ table tr td li{
     .studioImg{
         max-width: 250px;
     }
-}
-
-
-
-.swiper1 img{
-    height: 295px;
-    width: 222px;
 }

@@ -1,3 +1,0 @@
-http://myntra.myntassets.com/assets/premium/temp/Men.png
-
-Cannot download image; Failed to fetch
