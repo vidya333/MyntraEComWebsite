@@ -1,6 +1,6 @@
 let items = [
     {   id : '001',
-        image : './assets/img/mens/item1.jpg',
+        image : './assets/img/womens/tshirt (1).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -8,7 +8,7 @@ let items = [
         discount : '50%'
     },
     {   id : '002',
-        image : './assets/img/mens/item2.jpg',
+        image : './assets/img/womens/tshirt (2).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -16,7 +16,7 @@ let items = [
         discount : '50%'
     },
     {   id : '003',
-        image : './assets/img/mens/item3.jpg',
+        image : './assets/img/womens/tshirt (3).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -24,7 +24,7 @@ let items = [
         discount : '50%'
     },
     {   id : '004',
-        image : './assets/img/mens/item4.jpg',
+        image : './assets/img/womens/tshirt (4).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -32,7 +32,7 @@ let items = [
         discount : '50%'
     },
     {   id : '005',
-        image : './assets/img/mens/item5.jpg',
+        image : './assets/img/womens/tshirt (5).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -40,7 +40,7 @@ let items = [
         discount : '50%'
     },
     {   id : '006',
-        image : './assets/img/mens/item6.jpg',
+        image : './assets/img/womens/tshirt (6).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -48,7 +48,7 @@ let items = [
         discount : '50%'
     },
     {   id : '007',
-        image : './assets/img/mens/item7.jpg',
+        image : './assets/img/womens/tshirt (7).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -56,7 +56,7 @@ let items = [
         discount : '50%'
     },
     {   id : '008',
-        image : './assets/img/mens/item8.jpg',
+        image : './assets/img/womens/tshirt (8).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -64,7 +64,7 @@ let items = [
         discount : '50%'
     },
     {   id : '009',
-        image : './assets/img/mens/item9.jpg',
+        image : './assets/img/womens/tshirt (9).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -72,7 +72,7 @@ let items = [
         discount : '50%'
     },
     {   id : '010',
-        image : './assets/img/mens/item10.jpg',
+        image : './assets/img/womens/tshirt (10).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -80,7 +80,7 @@ let items = [
         discount : '50%'
     },
     {   id : '011',
-        image : './assets/img/mens/item11.jpg',
+        image : './assets/img/womens/tshirt (11).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -88,7 +88,7 @@ let items = [
         discount : '50%'
     },
     {   id : '012',
-        image : './assets/img/mens/item12.jpg',
+        image : './assets/img/womens/tshirt (12).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -96,7 +96,7 @@ let items = [
         discount : '50%'
     },
     {   id : '013',
-        image : './assets/img/mens/item13.jpg',
+        image : './assets/img/womens/tshirt (29).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -104,7 +104,7 @@ let items = [
         discount : '50%'
     },
     {   id : '014',
-        image : './assets/img/mens/item14.jpg',
+        image : './assets/img/womens/tshirt (14).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -112,7 +112,7 @@ let items = [
         discount : '50%'
     },
     {   id : '015',
-        image : './assets/img/mens/item15.jpg',
+        image : './assets/img/womens/tshirt (15).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -120,7 +120,7 @@ let items = [
         discount : '50%'
     },
     {   id : '016',
-        image : './assets/img/mens/item16.jpg',
+        image : './assets/img/womens/tshirt (16).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -128,7 +128,7 @@ let items = [
         discount : '50%'
     },
     {   id : '017',
-        image : './assets/img/mens/item17.jpg',
+        image : './assets/img/womens/tshirt (17).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -136,7 +136,7 @@ let items = [
         discount : '50%'
     },
     {   id : '018',
-        image : './assets/img/mens/item18.jpg',
+        image : './assets/img/womens/tshirt (18).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -144,7 +144,7 @@ let items = [
         discount : '50%'
     },
     {   id : '019',
-        image : './assets/img/mens/item19.jpg',
+        image : './assets/img/womens/tshirt (19).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -152,7 +152,7 @@ let items = [
         discount : '50%'
     },
     {   id : '020',
-        image : './assets/img/mens/item20.jpg',
+        image : './assets/img/womens/tshirt (20).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -160,7 +160,7 @@ let items = [
         discount : '50%'
     },
     {   id : '021',
-        image : './assets/img/mens/item21.jpg',
+        image : './assets/img/womens/tshirt (21).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -168,7 +168,7 @@ let items = [
         discount : '50%'
     },
     {   id : '022',
-        image : './assets/img/mens/item22.jpg',
+        image : './assets/img/womens/tshirt (22).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -176,7 +176,7 @@ let items = [
         discount : '50%'
     },
     {   id : '023',
-        image : './assets/img/mens/item23.jpg',
+        image : './assets/img/womens/tshirt (23).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -184,7 +184,7 @@ let items = [
         discount : '50%'
     },
     {   id : '024',
-        image : './assets/img/mens/item24.jpg',
+        image : './assets/img/womens/tshirt (24).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -192,7 +192,7 @@ let items = [
         discount : '50%'
     },
     {   id : '025',
-        image : './assets/img/mens/item25.jpg',
+        image : './assets/img/womens/tshirt (25).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -200,7 +200,7 @@ let items = [
         discount : '50%'
     },
     {   id : '026',
-        image : './assets/img/mens/item26.jpg',
+        image : './assets/img/womens/tshirt (26).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -208,7 +208,7 @@ let items = [
         discount : '50%'
     },
     {   id : '027',
-        image : './assets/img/mens/item27.jpg',
+        image : './assets/img/womens/tshirt (27).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -216,7 +216,7 @@ let items = [
         discount : '50%'
     },
     {   id : '028',
-        image : './assets/img/mens/item28.jpg',
+        image : './assets/img/womens/tshirt (28).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -224,7 +224,7 @@ let items = [
         discount : '50%'
     },
     {   id : '029',
-        image : './assets/img/mens/item29.jpg',
+        image : './assets/img/womens/tshirt (29).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -232,7 +232,7 @@ let items = [
         discount : '50%'
     },
     {   id : '030',
-        image : './assets/img/mens/item30.jpg',
+        image : './assets/img/womens/tshirt (30).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -240,7 +240,7 @@ let items = [
         discount : '50%'
     },
     {   id : '031',
-        image : './assets/img/mens/item31.jpg',
+        image : './assets/img/womens/tshirt (31).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -248,7 +248,7 @@ let items = [
         discount : '50%'
     },
     {   id : '032',
-        image : './assets/img/mens/item32.jpg',
+        image : './assets/img/womens/tshirt (32).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -256,7 +256,7 @@ let items = [
         discount : '50%'
     },
     {   id : '033',
-        image : './assets/img/mens/item33.jpg',
+        image : './assets/img/womens/tshirt (33).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -264,7 +264,7 @@ let items = [
         discount : '50%'
     },
     {   id : '034',
-        image : './assets/img/mens/item34.jpg',
+        image : './assets/img/womens/tshirt (34).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -272,7 +272,7 @@ let items = [
         discount : '50%'
     },
     {   id : '035',
-        image : './assets/img/mens/item35.jpg',
+        image : './assets/img/womens/tshirt (35).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -280,7 +280,7 @@ let items = [
         discount : '50%'
     },
     {   id : '036',
-        image : './assets/img/mens/item36.jpg',
+        image : './assets/img/womens/tshirt (36).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -288,7 +288,7 @@ let items = [
         discount : '50%'
     },
     {   id : '037',
-        image : './assets/img/mens/item37.jpg',
+        image : './assets/img/womens/tshirt (37).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -296,7 +296,7 @@ let items = [
         discount : '50%'
     },
     {   id : '038',
-        image : './assets/img/mens/item38.jpg',
+        image : './assets/img/womens/tshirt (38).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -304,7 +304,7 @@ let items = [
         discount : '50%'
     },
     {   id : '039',
-        image : './assets/img/mens/item39.jpg',
+        image : './assets/img/womens/tshirt (39).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -312,7 +312,7 @@ let items = [
         discount : '50%'
     },
     {   id : '040',
-        image : './assets/img/mens/item40.jpg',
+        image : './assets/img/womens/tshirt (40).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -320,7 +320,7 @@ let items = [
         discount : '50%'
     },
     {   id : '041',
-        image : './assets/img/mens/item41.jpg',
+        image : './assets/img/womens/tshirt (41).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -328,7 +328,7 @@ let items = [
         discount : '50%'
     },
     {   id : '042',
-        image : './assets/img/mens/item42.jpg',
+        image : './assets/img/womens/tshirt (42).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -336,7 +336,7 @@ let items = [
         discount : '50%'
     },
     {   id : '043',
-        image : './assets/img/mens/item43.jpg',
+        image : './assets/img/womens/tshirt (43).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -344,7 +344,7 @@ let items = [
         discount : '50%'
     },
     {   id : '044',
-        image : './assets/img/mens/item44.jpg',
+        image : './assets/img/womens/tshirt (44).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -352,7 +352,7 @@ let items = [
         discount : '50%'
     },
     {   id : '045',
-        image : './assets/img/mens/item45.jpg',
+        image : './assets/img/womens/tshirt (45).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -360,7 +360,7 @@ let items = [
         discount : '50%'
     },
     {   id : '046',
-        image : './assets/img/mens/item46.jpg',
+        image : './assets/img/womens/tshirt (46).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -368,7 +368,7 @@ let items = [
         discount : '50%'
     },
     {   id : '047',
-        image : './assets/img/mens/item47.jpg',
+        image : './assets/img/womens/tshirt (47).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -376,7 +376,7 @@ let items = [
         discount : '50%'
     },
     {   id : '048',
-        image : './assets/img/mens/item48.jpg',
+        image : './assets/img/womens/tshirt (48).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -384,7 +384,7 @@ let items = [
         discount : '50%'
     },
     {   id : '049',
-        image : './assets/img/mens/item49.jpg',
+        image : './assets/img/womens/tshirt (49).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
@@ -392,11 +392,28 @@ let items = [
         discount : '50%'
     },
     {   id : '050',
-        image : './assets/img/mens/item50.jpg',
+        image : './assets/img/womens/tshirt (50).jpeg',
         company : 'Puma',
         title : 'Pure Cotton Printed T-Shirt',
         dis_price : '549',
         price : '1099',
         discount : '50%'
     },
+    {   id : '051',
+        image : './assets/img/womens/tshirt (51).jpeg',
+        company : 'Puma',
+        title : 'Pure Cotton Printed T-Shirt',
+        dis_price : '549',
+        price : '1099',
+        discount : '50%'
+    },
+    {   id : '052',
+        image : './assets/img/womens/tshirt (52).jpeg',
+        company : 'Puma',
+        title : 'Pure Cotton Printed T-Shirt',
+        dis_price : '549',
+        price : '1099',
+        discount : '50%'
+    },
+    
 ]

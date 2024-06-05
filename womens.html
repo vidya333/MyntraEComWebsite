@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap@5.3.3.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<!-- Header Section Start -->
+    <!-- Nav Section Start -->
+    <header>
+        <nav class="navbar navbar-expand-xl bg-white shadow sticky-top px-lg-4 py-0">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="./assets/img/myntraLogo.png" alt="logo" class="img-fluid" width="70px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-lg-5 mb-2 mb-lg-0">
+                <li class="nav-item dropdown men">
+                  <a class="nav-link dropdown-toggle pt-3" aria-current="page" href="mens.html"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">MEN</a>
+                      <ul class="dropdown-menu border-0 rounded-0 text-small table-responsive">
+                          <table class="table">
+                              <tr class="px-xl-4">
+                                  <td class="py-3">
+                                      <li><p class="text-red fixed fw-bold ps-1" >Topwear</p></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">T-Shirts</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Casual Shirts</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Formal Shirts</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Sweathirts</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Sweater</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Jackets</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Blazers & Coats</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Suits</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Rain Jackets</a></li><hr>
+                                      <li><p class="text-red fixed fw-bold ps-1" >Indian & Festive Wear</p></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Kurtas & Kurta Sets</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Sherwanis</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Nehru Jackets</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Dhotis</a></li>
+                                      
+                                  </td>
+                                  <td class="bg-gray px-lg-3 py-3">
+                                      <li><p class="text-red fixed fw-bold ps-1" >Bottom Wear</p></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Jeans</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Casual Trousers</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Formal Trousers</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Shorts</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Track pants & Joggers</a><li>
+                                      <hr>
+                                      <li><p class="text-red fixed fw-bold ps-1">Innerwear & Sleepwear</p></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Briefs and Trunks</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Boxers</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Vests</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Sleepwear & Loungewear</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="mens.html">Thermals</a></li>
+                                      <hr>
+                                      <li><p class="text-red fixed fw-bold ps-1">Plus Size</p></li>
+                                  </td>
+                                  <td class="py-3">
+                                      <li><p class="text-red fixed fw-bold ps-1">Footwear</p></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Casual Shoes</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Sports Shoes</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Formal Shoes</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Sneakers</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Sandals & Floaters</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Flip Flops</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Socks</a></li>
+                                      <hr>
+                                      <li><p class="text-red fixed fw-bold ps-1">Personal Care & Grooming</p></li>
+                                      <li><p class="text-red fixed fw-bold ps-1">Sunglasses & Frames</p></li>
+                                      <li><p class="text-red fixed fw-bold ps-1">Watches</p></li>
+                                  </td>
+                                  <td class="bg-gray px-lg-3 py-3">
+                                      <li><p class="text-red fixed fw-bold ps-1">Sports & Active Wear</p></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Sports Shoes</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Sports Sandals</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Active T-Shirts</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Track Pants & Shorts</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Tracksuits</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Jackets & Sweatshirts</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Sports Accessories</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Swimwear</a></li>
+                                      <hr>
+                                      <li><p class="text-red fixed fw-bold ps-1">Gadgets</p></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Smart Wearables</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Fitness Gadgets</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Headphones</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Speakers</a></li>
+                                  </td>
+                                  <td class="py-3">
+                                      <li><p class="text-red fixed fw-bold ps-1">Fashion Accessories</p></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Wallets</a></li> 
+                                      <li><a class="dropdown-item text-secondary" href="#">Belts</a></li> 
+                                      <li><a class="dropdown-item text-secondary" href="#">Perfumes & Body Mists</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Trimmers</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Deodorants</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Ties, Cufflinks & Pocket Squares</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Accessory Gift Sets</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Caps & Hats</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Mufflers, Scarves & Gloves</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Phone Cases</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Rings & Wristwear</a></li>
+                                      <li><a class="dropdown-item text-secondary" href="#">Helmets</a></li>
+                                      <hr>
+                                      <li><p class="text-red fixed fw-bold ps-1">Bags & Backpacks</p></li>
+                                      <li><p class="text-red fixed fw-bold ps-1">Luggages & Trolleys</p></li>
+                                  </td>
+                              </tr>
+                          </table>
+                      </ul>
+                </li>
+                <li class="nav-item dropdown women">
+                  <a class="nav-link dropdown-toggle pt-3" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">WOMEN</a>
+                  <ul class="dropdown-menu border-0 rounded-0 text-small m-55">
+                      <table class="table">
+                          <tr class="px-xl-4">
+                              <td class="py-3">
+                                  <li><p class="text-pink fixed fw-bold ps-1" >Indian & Fusion Wear</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Kurtas & Suits</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Kurtis Tunics & Tops</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Sarees</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Ethnic Wear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Leggings, Salwar & Churidars</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Skirts & Palazzos</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Dress Materials</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Lehnga Cholis</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Dupattas & Shawls</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Jackets</a></li><hr>
+                                  <li><p class="text-pink fixed fw-bold ps-1" >Belts,Scarves & More</p></li>
+                                  <li><p class="text-pink fixed fw-bold ps-1" >Watches & Wearables</p></li>
+                                  
+                              </td>
+                              <td class="bg-gray px-lg-3 py-3">
+                                  <li><p class="text-pink fixed fw-bold ps-1" >Western Wear</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Dresses</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Tops</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Tshirts</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Jeans</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Trousers & Capris</a><li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Shorts & Skirts</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Co-ords</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Playsuits</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Jumpsuits</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Shrugs</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Sweater & Sweatshirts</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Jackets & Coats</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="womens.html">Blazers & Waistcoats</a></li>
+                                  <hr>
+                                  <li><p class="text-pink fixed fw-bold ps-1">Plus Size</p></li>
+                              </td>
+                              <td class="py-3">
+                                  <li><p class="text-pink fixed fw-bold ps-1">Maternity</p></li>
+                                  <li><p class="text-pink fixed fw-bold ps-1">Sunglasses & Frames</p></li>
+                                  <li><p class="text-pink fixed fw-bold ps-1">Footwear</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Flats</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Casual Shoes</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Heels</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Boots</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Sport Shoes & Floaters</a></li>
+                                  <hr>
+                                  <li><p class="text-pink fixed fw-bold ps-1">Sport & Active Wear</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Clothing</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Footwear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Sports Accessories</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Sports Equipments</a></li>
+                              </td>
+                              <td class="bg-gray px-lg-3 py-3">
+                                  <li><p class="text-pink fixed fw-bold ps-1">Lingeri & Sleepwear</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bra</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Briefs</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Shapewear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Sleepwear & Loungewear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Swimwear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Camisole & Thermals</a></li>
+                                  <hr>
+                                  <li><p class="text-pink fixed fw-bold ps-1">Beauty & Personal Care</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Makeup</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Skincare</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Premium Beauty</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Lipsticks</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Fragrances</a></li>
+                              </td>
+                              <td class="py-3">
+                                  <li><p class="text-pink fixed fw-bold ps-1">Gadgets</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Smart Wearables</a></li> 
+                                  <li><a class="dropdown-item text-secondary" href="#">Fitness Gadgets</a></li> 
+                                  <li><a class="dropdown-item text-secondary" href="#">Headphones</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Speakers</a></li>
+                                 <hr>
+                                 <li><p class="text-pink fixed fw-bold ps-1">Jewellery</p></li>
+  
+                                  <li><a class="dropdown-item text-secondary" href="#">Fashion Jewellery</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Fine Jewellery</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Earrings</a></li>
+                                  <hr>
+                                  <li><p class="text-pink fixed fw-bold ps-1">Backpacks</p></li>
+                                  <li><p class="text-pink fixed fw-bold ps-1">Handbags,Bags & Wallets</p></li>
+                                  <li><p class="text-pink fixed fw-bold ps-1">Luggages & Trolleys</p></li>
+                              </td>
+                          </tr>
+                      </table>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown kids">
+                  <a class="nav-link dropdown-toggle pt-3" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">KIDS</a>
+                  <ul class="dropdown-menu border-0 rounded-0 text-small m-134" >
+                      <table class="table">
+                          <tr class="px-xl-4">
+                              <td class="py-3">
+                                  <li><p class="text-orange fixed fw-bold ps-1" >Boys Clothing</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">T-Shirts</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Shirts</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Shorts</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Jeans</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Trousers</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Clothing Sets</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Ethnic Wear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Track Pant & Payjamas</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Jacket, Sweater & Sweatshirts</a><li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Party Wear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Innerwear & Thermals</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Nightwear & Loungewear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Value Packs</a></li>
+                              </td>
+                              <td class="bg-gray px-lg-3 py-3">
+                                  <li><p class="text-orange fixed fw-bold ps-1" >Girls Clothing</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Dresses</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Tops</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Tshirts</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Clothing Sets</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Lehnga Choli</a><li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Kurta Set</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Party wear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Dungaree & Jumpsuits</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Skirts & Shorts</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Tights & Leggings</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Jeans ,Trousers & Capris</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Jacket, Sweater & Sweatshirts</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Innerwear & Thermals</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Nightwear & Loungewear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Value Packs</a></li>
+                              </td>
+                              <td class="py-3">
+                                  <li><p class="text-orange fixed fw-bold ps-1">Footwear</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Casual Shoes</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Flipflops</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Sport Shoes</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Flats</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Sandals</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Heels</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">School Shoes</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Socks</a></li>
+                                  <hr>
+                                  <li><p class="text-orange fixed fw-bold ps-1">Toys & Games</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Learning & Development</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Activity Toys</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Soft Toys</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Action Figure/Play Set</a></li>
+  
+                              </td>
+                              <td class="bg-gray px-lg-3 py-3">
+                                  <li><p class="text-orange fixed fw-bold ps-1">Infants</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bodysuits</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Rompers & Sleepsuits</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Clothing Sets</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Tshirts & Tops</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Dresses</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bottom Wear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Winter wear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Innerwear & Sleepwear</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Infant Care</a></li>
+                                  <hr>
+                                  <li><p class="text-orange fixed fw-bold ps-1">Home & Bath</p></li>
+                                  <li><p class="text-orange fixed fw-bold ps-1">Personal Care</p></li>
+                              
+                              </td>
+                              <td class="py-3">
+                                  <li><p class="text-orange fixed fw-bold ps-1">Kids Accessories</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bags & Backpacks</a></li> 
+                                  <li><a class="dropdown-item text-secondary" href="#">Watches</a></li> 
+                                  <li><a class="dropdown-item text-secondary" href="#">Jewellery & Hair accessory</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Sunglasses</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Masks & Protective Gears</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Caps & Hats</a></li>
+                                  <hr>
+                                  <li><p class="text-orange fixed fw-bold ps-1">Brands</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">H&M</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Max Kids</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Pantaloons</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">United Colors Of Benetton Kids</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">YK</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">U.S.Polo Assn. Kids</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Mothercare</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">HRX</a></li>
+  
+                              </td>
+                          </tr>
+                      </table>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown home">
+                  <a class="nav-link dropdown-toggle pt-3" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">HOME & LIVING</a>
+                  <ul class="dropdown-menu border-0 rounded-0 text-small m-190" >
+                      <table class="table">
+                          <tr class="px-xl-4">
+                              <td class="py-3">
+                                  <li><p class="text-yellow fixed fw-bold ps-1">Bed Linen & Furnishing</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bed Runners</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Mattress Protectors</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bedsheets</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bedding Sets</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Blankets, Quilts & Dohars</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Pillows $ Pillow Covers</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bed Covers</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Diwan Sets</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Chair Pads & Covers</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Sofa Covers</a></li>
+                                  <hr>
+                                  <li><p class="text-yellow fixed fw-bold ps-1" >Flooring</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Float Runner</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Carpets</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Floor Mats & Dhurries</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Door Mats</a></li>
+                              </td>
+                              <td class="bg-gray px-lg-3 py-3">
+                                  <li><p class="text-yellow fixed fw-bold ps-1" >Bath</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bath Towels</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hand & Face Towels</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Beach Towels</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Towel Sets</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bath Rugs</a><li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bath Robes</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bathroom Accessories</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Shower Curtains</a></li>
+                                  <hr>
+                                  <li><p class="text-yellow fixed fw-bold ps-1">Lamps & Lighting</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Floor Lamps</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Ceiling Lamps</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Table Lamps</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Wall Lamps</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Outdoor Lamps</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">String Lights</a></li>
+                              </td>
+                              <td class="py-3">
+                                  <li><p class="text-yellow fixed fw-bold ps-1">Home Decor</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Plants & Planters</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Aromas & Candles</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Clocks</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Mirrors</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Wall Decor</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Festive Decor</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Pooja Essentials</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Wall Shelves</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Fountains</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Showpiece & Vases</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Ottoman</a></li>
+                                  <li><p class="text-yellow fixed fw-bold ps-1">Cushions & Cushion Covers</p></li>
+                                  <li><p class="text-yellow fixed fw-bold ps-1">Curtains</p></li>
+                              </td>
+                              <td class="bg-gray px-lg-3 py-3">
+                                  <li><p class="text-yellow fixed fw-bold ps-1">Home Gift Sets</p></li>
+                                  <li><p class="text-yellow fixed fw-bold ps-1">Kitchen & Table</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Table Runners</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Dinneware & Serveware</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Cups & Mugs</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bakeware & Cookware</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Kitchen Storage & Tools</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bar & Drinkware</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Table Covers & Furnishings</a></li>
+                                  <hr>
+                                  <li><p class="text-yellow fixed fw-bold ps-1">Storage</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bins</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hangers</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Organisers</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hooks & Holders</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Laundry Bags</a></li>
+                              </td>
+                              <td class="py-3">
+                                  <li><p class="text-yellow fixed fw-bold ps-1">Brands</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">H&M</a></li> 
+                                  <li><a class="dropdown-item text-secondary" href="#">Marks & Spencer</a></li> 
+                                  <li><a class="dropdown-item text-secondary" href="#">Home Centre</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Spaces</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">D' Decor</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Story@Home</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Pure Home & Living</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Swayam</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Raymond Home</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Maspar</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">My Trident</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Cortina</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Random</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Elementry</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">RQMEE</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">SEJ by Nisha Gupta</a></li>
+                              </td>
+                          </tr>
+                      </table>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown beauty">
+                  <a class="nav-link dropdown-toggle pt-3" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">BEAUTY</a>
+                  <ul class="dropdown-menu border-0 rounded-0 text-small m-321" >
+                      <table class="table">
+                          <tr class="px-xl-4">
+                              <td class="py-3">
+                                  <li><p class="text-blue fixed fw-bold ps-1">Makeup</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Lipstick</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Lip Gloss</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Lip Liner</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Mascara</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Eyeliner</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Kajal</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Eyeshadow</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Foundation</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Primer</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Concealer</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Compact</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Nail Polish</a></li>
+                              </td>
+                              <td class="bg-gray px-lg-3 py-3"> 
+                                  <li><p class="text-blue fixed fw-bold ps-1">Skincare, Bath & Body</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Cleanser</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Marks & Peel</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Sunscreen</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Serum</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Face Wash</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Eye Cream</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Lip Balm</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Body Lotion</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Body Wash</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Body Scrub</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hand Cream</a></li><hr>
+                                  <li><p class="text-blue fixed fw-bold ps-1" >Baby Care</p></li>
+                                  <li><p class="text-blue fixed fw-bold ps-1" >Masks</p></li>
+                              
+                              </td>
+                              <td class="py-3">
+                                  <li><p class="text-blue fixed fw-bold ps-1" >Hair Care</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Shampoo</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Conditioner</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hair Cream</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hair Oil</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hair Gel</a><li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hair Color</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hair Serum</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hair Accessories</a></li>
+                                  <hr>
+                                  <li><p class="text-blue fixed fw-bold ps-1">Fragrances</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Perfume</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Deodorant</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Body Mist</a></li>
+  
+                                  
+                              </td>
+                              <td class="bg-gray px-lg-3 py-3">
+                                  <li><p class="text-blue fixed fw-bold ps-1">Appliences</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hair Straightener</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hair Dryer</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Apilator</a></li><hr>
+                                  <li><p class="text-blue fixed fw-bold ps-1">Mens Grooming</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Trimmers</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Beard Oil</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Hair Wax</a></li><hr>
+                                  <li><p class="text-blue fixed fw-bold ps-1" >Beuty Gift & Makeup Set</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Beauty Gift</a></li>
+                                  <li><p class="dropdown-item text-secondary" href="#">Makeup Kit</a></li><hr>
+                                  <li><p class="text-blue fixed fw-bold ps-1">Premium Beauty</p></li>
+                                  <li><p class="text-blue fixed fw-bold ps-1">Wellness & Hygiene</p></li>
+  
+                              </td>
+                              <td class="py-3">
+                                  <li><p class="text-blue fixed fw-bold ps-1">Top Brands</p></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Lakme</a></li> 
+                                  <li><a class="dropdown-item text-secondary" href="#">Maybelline</a></li> 
+                                  <li><a class="dropdown-item text-secondary" href="#">LOreal</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Philips</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Bath & Body Works</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">THE BODY SHOP</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Biotique</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Mamaearth</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Raymond Home</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">MCaffeine</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Nivea</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Lotus Herbals</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">LOreal Professionnel</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">KAMA AYURVEDA</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">M.A.C</a></li>
+                                  <li><a class="dropdown-item text-secondary" href="#">Forest Essentials</a></li>
+                              </td>
+                          </tr>
+                      </table>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown studio">
+                  <a class="nav-link dropdown-toggle pt-3" href="#"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">STUDIO
+                  <sup class="text-pink"> NEW</sup></a>
+                  <ul class="dropdown-menu border-0 rounded-0 text-small m-134" >
+                      <div class="table text-center p-lg-3">
+                          <img src="./assets/img/myntra-studioIcon.jpg" alt="studioIcon" width="103.094px">
+                          <p class="text-normal text-secondary">Your daily inspiration for everything fashion</p>
+                          <img src="./assets/img/myntraStudio.png" alt="myntraStudio" class="studioImg">
+                          <button class="bg-white px-5 py-2 mt-4 text-secondary fw-bold" style="border: 1px solid rgb(172, 167, 167);">
+                              EXPLORE STUDIO  &gt;
+                          </button>
+                      </div>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex searchbox  w-33" role="search">
+                  <input class="form-control me-2 bg-gray border-0 ms-xl-3" type="search" placeholder=" &#xf002;  Search for products, brands and more" aria-label="Search" style="font-family:'Roboto', sans-serif,FontAwesome;">
+              </form>
+              <ul class="list-unstyled d-flex mb-lg-0 justify-content-around">
+                  <li class="nav-item dropdown text-center profile">
+                      <a class="nav-link dropdown-toggle px-lg-3" href="#"
+                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-regular fa-user fs-6"></i>
+                          <p class="text-small fw-bold">Profile</p>
+                      </a>
+                      <ul class="dropdown-menu border-0 shadow p-3 text-small rounded-0 profileDropdown" >
+                          <li class="dropdown-item fw-bold">Hello Vidya</li>
+                          <li class="text-small">9920155447</li><hr>
+                          <li class="dropdown-item">Orders</li>
+                          <li class="dropdown-item">Wishlist</li>
+                          <li class="dropdown-item">Gift Cards</li>
+                          <li class="dropdown-item">Contact Us</li>
+                          <li class="dropdown-item">Myntra Insider
+                              <span class="px-1 text-vsmall" 
+                              style="font-style: italic; background-color: #f41c76;color: #fff;
+                              font-weight: bold; border-radius: 2px;transform: skew(-20deg);"> New</span>
+                          </li><hr>
+                          <li class="dropdown-item">Myntra Credit</li>
+                          <li class="dropdown-item">Coupons</li>
+                          <li class="dropdown-item">Saved Cards</li>
+                          <li class="dropdown-item">Saved VPA</li>
+                          <li class="dropdown-item">Saved Addresses</li><hr>
+                          <li class="dropdown-item">Edit Profile</li>
+                          <li class="dropdown-item">Logout</li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown text-center">
+                      <a class="nav-link dropdown-toggle px-lg-3" href="#"
+                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-regular fa-heart fs-6"></i>
+                          <p class="text-small fw-bold">Wishlist</p>
+                      </a>
+                  </li>
+                  <li class="nav-item dropdown text-center">
+                      <a class="nav-link dropdown-toggle px-lg-3" href="#"
+                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./assets/img/shopping-bag.png" alt="bag" width="16px" class="pb-1">
+                      <span>
+                        <a class="badge badge-danger position-absolute top-0 start-100 
+                        translate-middle rounded-circle bg-danger mt-3 " id="cart-number"
+                        style="text-decoration: none;font-size: 10px;margin-left: -10px;"> 0 </a>
+                      </span>
+                      <p class="text-small fw-bold me-0">Bag</p>
+                      </a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <!-- Nav Section End -->
+<!-- Header Section End -->
+<!-- Product Section Starts -->
+<section class="products container-fluid pt-5">
+
+  <aside class="col-lg-2 col-md-0 float-start mt-5 text-normal d-none d-lg-block border">
+    <p class="text-normal fw-bold text-dark">FILTERS</p>
+<hr>
+    <p class="text-normal fw-bold text-dark">CATEGORIES</p>
+    <ul class="list-unstyled">
+        <li><input type="checkbox" name="category" class="m-1" checked> T-Shirts </li>
+        <li><input type="checkbox" name="category" class="m-1"> Lounge T-Shirts <br></li>
+        <li><input type="checkbox" name="category" class="m-1"> Sarees </li>
+        <li><input type="checkbox" name="category" class="m-1"> Dresses </li>
+        <li><input type="checkbox" name="category" class="m-1"> Tops </li>
+        <li><input type="checkbox" name="category" class="m-1"> Kurta Sets </li>
+        <li><input type="checkbox" name="category" class="m-1"> Kurta </li>
+        <li><input type="checkbox" name="category" class="m-1"> Kurtis </li>
+        <li><span class="text-pink"> more +</span> </li>
+    </ul>
+<hr>
+    <p class="text-normal fw-bold text-dark">BRANDS</p>
+    <ul class="list-unstyled">
+        <li><input type="checkbox" name="category" class="m-1"> Roadster </li>
+        <li><input type="checkbox" name="category" class="m-1"> SASSAFRAS </li>
+        <li><input type="checkbox" name="category" class="m-1"> Dressberry </li>
+        <li><input type="checkbox" name="category" class="m-1"> HARPA </li>
+        <li><input type="checkbox" name="category" class="m-1"> Max </li>
+        <li><input type="checkbox" name="category" class="m-1"> Pantaloons </li>
+        <li><input type="checkbox" name="category" class="m-1"> Levise </li>
+        <li><input type="checkbox" name="category" class="m-1"> Puma </li>
+        <li><input type="checkbox" name="category" class="m-1"> Zudio </li>
+        <li><input type="checkbox" name="category" class="m-1"> Lifestyle </li>
+        <li><input type="checkbox" name="category" class="m-1"> HERE & NOW </li>
+        <li><input type="checkbox" name="category" class="m-1"> Vero Moda </li>
+        <li><span class="text-pink"> + 639 more</span> </li>
+    </ul>
+<hr>
+    <p class="text-normal fw-bold text-dark">PRICE</p>
+    <ul class="list-unstyled">
+        <li><input type="checkbox" name="category" class="m-1"> Rs. 124 to Rs. 9968</li>
+        <li><input type="checkbox" name="category" class="m-1"> Rs. 9968 to Rs. 19812 </li>
+        <li><input type="checkbox" name="category" class="m-1"> Rs. 19812 to Rs. 29656</li>
+        <li><input type="checkbox" name="category" class="m-1"> Rs. 29656 to Rs. 39510 </li>
+    </ul>
+<hr>
+    <p class="text-normal fw-bold text-dark">COLOR</p>
+    <ul class="list-unstyled">
+        <li><input type="checkbox" name="category" class="m-1">
+            <span class="rounded-circle bg-dark text-vsmall mx-1" style="padding:0px 7px ;"></span> Black</li>
+        <li><input type="checkbox" name="category" class="m-1">
+            <span class="rounded-circle bg-white text-vsmall mx-1" style="padding:0px 7px ;"></span> White </li>
+        <li><input type="checkbox" name="category" class="m-1">
+            <span class="rounded-circle bg-info text-vsmall mx-1" style="padding:0px 7px ;"></span> Blue</li>
+        <li><input type="checkbox" name="category" class="m-1">
+            <span class="rounded-circle bg-pink text-vsmall mx-1" style="padding:0px 7px ;"></span> Pink </li>
+        <li><input type="checkbox" name="category" class="m-1">
+            <span class="rounded-circle bg-success text-vsmall mx-1" style="padding:0px 7px ;"></span> Green </li>
+        <li><input type="checkbox" name="category" class="m-1">
+            <span class="rounded-circle bg-warning text-vsmall mx-1" style="padding:0px 7px ;"></span> Yellow </li>
+        <li><input type="checkbox" name="category" class="m-1">
+            <span class="rounded-circle bg-orange text-vsmall mx-1" style="padding:0px 7px ;"></span> Orange </li>
+        <li><input type="checkbox" name="category" class="m-1">
+            <span class="rounded-circle bg-danger text-vsmall mx-1" style="padding:0px 7px ;"></span> Red </li>
+        <li><input type="checkbox" name="category" class="m-1">
+            <span class="rounded-circle bg-purple text-vsmall mx-1" style="padding:0px 7px ;"></span> Purple </li>
+        <li><span class="text-pink"> + 39 more </span> </li>
+    </ul>
+<hr>
+    <p class="text-normal fw-bold text-dark">DISCOUNT RANGE</p>
+    <ul class="list-unstyled">
+        <li><input type="checkbox" name="category" class="m-1"> 10% and above</li>
+        <li><input type="checkbox" name="category" class="m-1"> 20% and above </li>
+        <li><input type="checkbox" name="category" class="m-1"> 30% and above</li>
+        <li><input type="checkbox" name="category" class="m-1"> 40% and above </li>
+        <li><input type="checkbox" name="category" class="m-1"> 50% and above </li>
+        <li><input type="checkbox" name="category" class="m-1"> 60% and above </li>
+        <li><input type="checkbox" name="category" class="m-1"> 70% and above </li>
+        <li><input type="checkbox" name="category" class="m-1"> 80% and above </li>
+        <li><input type="checkbox" name="category" class="m-1"> 90% and above </li>
+    </ul>
+  </aside>
+  <div class="col-lg-10 col-md-12 float-end">
+    <div class="row" id="item-container">
+      
+    </div>
+  </div>
+  
+</section>
+<!-- Product Section Ends -->
+
+<!-- Footer Section Starts -->
+<footer style="background: #fafbfc;clear: both;">
+    <div class="footer py-5 container">
+      <div class="row">
+        <div class="col-lg-2 col-sm-6 col-12">
+          <ul class="list-unstyled text-footers">
+            <li class="text-footheading py-3">ONLINE SHOPPING</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Kids</li>
+            <li>Home & Living</li>
+            <li>Beauty</li>
+            <li>Gift Cards</li>
+            <li>Myntra Insider</li>
+            <li class="text-footheading py-3">USEFUL LINKS</li>
+            <li>Blog</li>
+            <li>Career</li>
+            <li>Site Map</li>
+            <li>Corporate Information</li>
+            <li>Whitehat</li>
+            <li>Cleartrip</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6 col-12">
+          <ul class="list-unstyled text-footers">
+            <li class="text-footheading py-3">CUSTOMER POLICIES</li>
+            <li>Contact Us</li>
+            <li>FAQ</li>
+            <li>T&C</li>
+            <li>Terms of Use</li>
+            <li>Track Orders</li>
+            <li>Shipping</li>
+            <li>Cancellation</li>
+            <li>Returns</li>
+            <li>Privacy Policy</li>
+            <li>Grievance Officer</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12">
+          <ul class="list-unstyled">
+            <li class="text-footheading py-3">EXPERIENCE MYNTRA APP ON MOBILE</li>
+            <li>
+              <img src="./assets/img/mainpage/googleplay.jpeg" width="140px" height="42px" class="rounded">
+              <span>
+                <img src="./assets/img/mainpage/appStore.jpeg" width="140px" height="42px" class="rounded">
+              </span>
+            </li>
+            <li class="text-footheading py-3">KEEP IN TOUCH</li>
+            <li>
+              <ul class="d-flex list-unstyled">
+                <li class="pe-2">
+                  <a href="#">
+                    <img src="./assets/img/mainpage/facebook.png" style="width:24px;height:24px;border-radius: 3px;">
+                  </a>
+                </li>
+                <li class="pe-2">
+                  <a href="#">
+                    <img src="./assets/img/mainpage/twitter.png" style="width:24px;height:24px;border-radius: 3px;">
+                  </a>
+                </li>
+                <li class="pe-2">
+                  <a href="#">
+                    <img src="./assets/img/mainpage/youtube.png" style="width:24px;height:24px;border-radius: 3px;">
+                  </a>
+                </li>
+                <li class="pe-2">
+                  <a href="#">
+                    <img src="./assets/img/mainpage/instagram.png" style="width:24px;height:24px;border-radius: 3px;">
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-12">
+          <ul class="list-unstyled text-footers pt-3" >
+            <li class="d-flex pb-3">
+              <img src="./assets/img/mainpage/original-stamp.png" width="54px">
+              <span class="px-2">
+                <span style="font-size: 16px;font-weight: 700;"> 100% ORIGINAL</span>
+                <span style="font-size: 16px;">guarantee for <br> all products at myntra.com</span>
+              </span>
+            </li>
+            <li class="d-flex">
+              <img src="./assets/img/mainpage/Return-stamp.png" width="54px">
+              <span class="px-2">
+                <span style="font-size: 16px;font-weight: 700;">Return Within 14days</span>
+                <span style="font-size: 16px;">of <br> receiving your order</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="col-12" style="font-size: 15px;font-weight: 700;color: #5c5858;">POPULAR SEARCHES</p>
+      <div class="row">
+        <div class="col-12 d-wrap text-footers">
+          <a href="#">Makeup |</a><a href="#"> Dresses for Girls |</a><a href="#"> T-shirts |</a>
+          <a href="#"> Sandals |</a><a href="#"> Headphones |</a><a href="#"> Babydolls |</a>
+          <a href="#"> Blazers for Men |</a><a href="#"> Handbags |</a><a href="#"> Ladies Watches |</a>
+          <a href="#"> Bags |</a><a href="#"> Sport Shoes |</a><a href="#"> Rebook Shoes |</a><a href="#"> Puma Shoes |</a>
+          <a href="#"> Boxers |</a><a href="#"> Wallets |</a><a href="#"> Tops |</a><a href="#"> Earrings |</a>
+          <a href="#"> Fastrack Watches |</a><a href="#"> Kurtis |</a><a href="#"> Nike |</a><a href="#"> Smart Watches |</a>
+          <a href="#"> Titan Watches |</a><a href="#"> Designer Blouse |</a><a href="#"> Gowns |</a><a href="#"> Rings |</a>
+          <a href="#"> Cricket Shoes |</a><a href="#"> Forever 21 |</a><a href="#"> Eye Makup |</a><a href="#"> Photo Frames |</a>
+          <a href="#"> Punjabi Suits |</a><a href="#"> Bikini |</a><a href="#"> Myntra Fashion Show |</a><a href="#"> Lipstick |</a>
+          <a href="#"> Saree | </a><a href="#"> Watches |</a><a href="#"> Dresses |</a><a href="#"> Lehnga |</a>
+          <a href="#"> Nike Shoes |</a><a href="#"> Goggles |</a><a href="#"> Bras |</a><a href="#"> Suits |</a>
+          <a href="#"> Chinos |</a><a href="#"> Shoes |</a><a href="#"> Adidas Shoes |</a><a href="#"> Woodland Shoes |</a>
+          <a href="#"> Jewellery |</a><a href="#"> Designer Sarees</a>
+        </div>
+      </div>
+      <div class="d-md-flex justify-content-between">
+        <div class="linker1">
+          <p class="pt-3 text-normal">
+            In case of any Concerns, 
+            <span style="font-size: 16px;color: #6b6be6;font-weight: 700;"> Contact Us</span>
+          </p>
+        </div>
+        <div class="linker2">
+          <p class="pt-3 text-normal">
+            © 2024 www.myntra.com. All rights reserved.
+          </p>
+        </div>
+        <div class="linker3">
+          <p class="pt-3 text-normal">
+            <a href="#"> A Flipkart Company</a>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="office-address">
+      <span style="font-size: 15px;font-weight: 700;color: #5c5858;" class="py-3"> Registered Office Address </span>
+      <div class="d-md-flex justify-content-between text-footers">
+        <div class="address py-3 text-normal">
+          Buildings Alyssa, <br>
+          Begonia and Clover situated in Embassy Tech Village, <br>
+          Outer Ring Road, <br>
+          Devarabeesanahalli Village, <br>
+          Varthur Hobli, <br>
+          Bengaluru - 560103, India
+        </div>
+        <div class="contact text-normal mt-auto py-3">
+          CIN: U72300KA2007PTC041799 <br>
+          Telephone: <span style="font-size: 16px;color: #6b6be6;font-weight: 700;"> +91-80-61561999</span>
+        </div>
+      </div>
+      </div>
+      <hr>
+      <div class="other-information text-footers">
+        <p style="font-size: 15px;font-weight: 700;color: #5c5858;">ONLINE SHOPPING MADE EASY AT MYNTRA</p>
+        If you would like to experience the best of online shopping for men, women and kids in India, you are at the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including clothing, footwear, accessories, jewellery, personal care products and more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. You can shop online at Myntra from the comfort of your home and get your favourites delivered right to your doorstep.
+        <br><br>
+        <p style="font-size: 15px;font-weight: 700;color: #5c5858;">BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION</p>
+        Be it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and functionality for men, women and kids. You will realise that the sky is the limit when it comes to the types of outfits that you can purchase for different occasions.
+        <ol>
+          <br>
+          <li>
+            <span style="font-size: 15px;font-weight: 700;color: #5c5858;"> Smart men's clothing</span>
+            <span>- At Myntra you will find myriad options in smart formal shirts and trousers, cool T-shirts and jeans, or kurta and pyjama combinations for men. Wear your attitude with printed T-shirts. Create the back-to-campus vibe with varsity T-shirts and distressed jeans. Be it gingham, buffalo, or window-pane style, checked shirts are unbeatably smart. Team them up with chinos, cuffed jeans or cropped trousers for a smart casual look. Opt for a stylish layered look with biker jackets. Head out in cloudy weather with courage in water-resistant jackets. Browse through our innerwear section to find supportive garments which would keep you confident in any outfit.</span>
+          </li><br>
+          <li>
+            <span style="font-size: 15px;font-weight: 700;color: #5c5858;"> Trendy women’s clothing</span>
+            <span> - Online shopping for women at Myntra is a mood-elevating experience. Look hip and stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a little black dress, or opt for red dresses for a sassy vibe. Striped dresses and T-shirts represent the classic spirit of nautical fashion. Choose your favourites from among Bardot, off-shoulder, shirt-style, blouson, embroidered and peplum tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the perfect fusion-wear combination for the cool urbanite. Our grand sarees and lehenga-choli selections are perfect to make an impression at big social events such as weddings. Our salwar-kameez sets, kurtas and Patiala suits make comfortable options for regular wear.</span>
+          </li><br>
+          <li>
+            <span style="font-size: 15px;font-weight: 700;color: #5c5858;"> Fashionable footwear</span>
+            <span>- While clothes maketh the man, the type of footwear you wear reflects your personality. We bring you an exhaustive lineup of options in casual shoes for men, such as sneakers and loafers. Make a power statement at work dressed in brogues and oxfords. Practice for your marathon with running shoes for men and women. Choose shoes for individual games such as tennis, football, basketball, and the like. Or step into the casual style and comfort offered by sandals, sliders, and flip-flops. Explore our lineup of fashionable footwear for ladies, including pumps, heeled boots, wedge-heels, and pencil-heels. Or enjoy the best of comfort and style with embellished and metallic flats.</span>
+          </li><br>
+          <li>
+            <span style="font-size: 15px;font-weight: 700;color: #5c5858;"> Stylish accessories</span>
+            <span>- Myntra is one of the best online shopping sites for classy accessories that perfectly complement your outfits. You can select smart analogue or digital watches and match them up with belts and ties. Pick up spacious bags, backpacks, and wallets to store your essentials in style. Whether you prefer minimal jewellery or grand and sparkling pieces, our online jewellery collection offers you many impressive options.</span>
+          </li><br>
+          <li>
+            <span style="font-size: 15px;font-weight: 700;color: #5c5858;"> Fun and frolic</span>
+            <span> - Online shopping for kids at Myntra is a complete joy. Your little princess is going to love the wide variety of pretty dresses, ballerina shoes, headbands and clips. Delight your son by picking up sports shoes, superhero T-shirts, football jerseys and much more from our online store. Check out our lineup of toys with which you can create memories to cherish.</span>
+          </li><br>
+          <li>
+            <span style="font-size: 15px;font-weight: 700;color: #5c5858;"> Beauty begins here</span>
+            <span>- You can also refresh, rejuvenate and reveal beautiful skin with personal care, beauty and grooming products from Myntra. Our soaps, shower gels, skin care creams, lotions and other ayurvedic products are specially formulated to reduce the effect of aging and offer the ideal cleansing experience. Keep your scalp clean and your hair uber-stylish with shampoos and hair care products. Choose makeup to enhance your natural beauty.</span>
+          </li>
+        </ol>
+          Myntra is one of the best online shopping sites in India which could help transform your living spaces completely. Add colour and personality to your bedrooms with bed linen and curtains. Use smart tableware to impress your guest. Wall decor, clocks, photo frames and artificial plants are sure to breathe life into any corner of your home.
+          <br><br>
+          <p style="font-size: 15px;font-weight: 700;color: #5c5858;">AFFORDABLE FASHION AT YOUR FINGERTIPS</p>
+          Myntra is one of the unique online shopping sites in India where fashion is accessible to all. Check out our new arrivals to view the latest designer clothing, footwear and accessories in the market. You can get your hands on the trendiest style every season in western wear. You can also avail the best of ethnic fashion during all Indian festive occasions. You are sure to be impressed with our seasonal discounts on footwear, trousers, shirts, backpacks and more. The end-of-season sale is the ultimate experience when fashion gets unbelievably affordable
+          <br><br>
+          <p style="font-size: 15px;font-weight: 700;color: #5c5858;">MYNTRA INSIDER</p>
+          Every online shopping experience is precious. Hence, a cashless reward-based customer loyalty program called Myntra Insider was introduced to enhance your online experience. The program is applicable to every registered customer and measures rewards in the form of Insider Points.
+          <br>
+          There are four levels to achieve in the program, as the Insider Points accumulate. They are - Insider, Select,  Elite or Icon. Apart from offering discounts on Myntra and partner platform coupons, each tier comes with its own special perks.
+          <br><br>
+          <p style="font-size: 15px;font-weight: 700;color: #5c5858;">Insider</p>
+          <ul>
+            <li>Opportunity to master any domain in fashion with tips from celebrity stylists at Myntra Masterclass sessions.</li>
+            <li>Curated collections from celeb stylists.</li>
+          </ul>
+          <p style="font-size: 15px;font-weight: 700;color: #5c5858;">Elite</p>
+          <ul>
+            <li>VIP access to special sale events such as the End of Reason Sale (EORS) and product launches.</li>
+            <li>Exclusive early access to Limited Edition products</li>
+          </ul>
+          <p style="font-size: 15px;font-weight: 700;color: #5c5858;">Icon</p>
+          <ul>
+            <li>Chance to get on guest lists for special events.</li>
+          </ul>
+          <br>
+          <p style="font-size: 15px;font-weight: 700;color: #5c5858;">
+            Myntra Studio - The Personalised Fashion Feed You Wouldn’t Want To Miss Out On</p>
+            The world wide web is evolving at a relentless pace, and with an accelerated growth each passing year, there is bound to be an overwhelming surge of online content. It was for this very reason that personalisation of search feeds was proposed as a solution to combat the overload of irrelevant information.
+            <br>
+            Several social media platforms such as Facebook and Instagram along with various online shopping websites have chosen to help filter content, increasing user engagement, retention and customer loyalty.
+            <br>
+            Myntra is one such online shopping website that joins the list of platforms that help curate a personalised fashion feed. Named theMyntra Studio, this personalised search feed brings you the latest men and women’s fashion trends, celebrity styles, branded content and daily updates from your favourite fashion labels.
+            <br>
+            If you are wondering how impactful Myntra Studio can be, we are listing out five perks of having a rich, meaningful, and personalised fashion feed in your life.
+            <br><br>
+          <ol>
+            <li>
+              <span style="font-size: 15px;font-weight: 700;color: #5c5858;"> Keep Up With What Your Favourite Fashion Icons Are Upto -</span>
+              The #OOTD, AKA outfit of the day hashtag trend has been a rage among fashion bloggers and stylists. The whole concept of building an outfit from scratch and showcasing it to a huge community of enthusiasts using the hashtag has helped individuals with understanding trends and making suitable for daily wear.
+  <br>
+              Imagine if you could keep up with every piece of clothing and accessory worn by the fashion icons you look upto. From Sonam Kapoor to Hailey Baldwin Bieber, Myntra Studio has a ‘Stories’ feature to help track celebrity fashion trends, exploring details such as their outfit of the day. This way, you would not ever miss out on the latest celebrity fashion trends, from all around the world.
+            </li><br>
+            <li>
+              <span style="font-size: 15px;font-weight: 700;color: #5c5858;">Quick Fashion Tip And Tricks -</span>
+              Whether it is draping a saree into a dhoti style, wearing the right lingerie under certain dresses or discovering multiple uses out of heavy ethnic wear, Myntra Studio will help you acquire some unique and useful fashion hacks. Each hack is designed with the intention to help you get the best wear out of everything in your wardrobe.
+            </li><br>
+            <li>
+              <span style="font-size: 15px;font-weight: 700;color: #5c5858;">Updates on What Is Trending and New Product Launches -</span>
+              Since fast fashion seems to be extremely hard to keep up with these days, a quick update on what is trending in accessories, clothing and footwear would certainly be of great help. Myntra Studio helps you stay connected to the most beloved and sought after brands such as Puma, Coverstory, The Label Life and so many more.
+  <br>
+              Your feed keeps you updated with stories of what the brands are creating including clothing, footwear and jewellery, along with their new seasonal collections
+            </li><br>
+            <li>
+              <span style="font-size: 15px;font-weight: 700;color: #5c5858;">Explicit Step-By-Step Beauty Routines From Experts -</span>
+              Just like fashion, the beauty community keeps on growing, and with brands such as Huda Beauty, MAC and the latest Kay Beauty by Katrina Kaif, are constantly coming up with mind-blowing products. Whether it is creating a no-makeup look, different winged eyeliners, do-it-yourself facial masks and other personal care beauty routines, Myntra Studio is here for you.
+            </li><br>
+            <li>
+              <span style="font-size: 15px;font-weight: 700;color: #5c5858;">Celebrity Confessions And A Look Into Their Lives -</span>
+              A bonus feature that Myntra Studio has in store for you is celebrity confessions and a peek into their lives. So, Myntra helps you stay connected to your most beloved celebrities in a matter of clicks.
+  <br>
+              If you are very particular when it comes to the content you wish to view and engage with on social media, the ability to intricately filter content helps achieve that. Applying the same formula for hardcore fashion lovers and shoppers, Myntra Studio brings you a daily fashion fix incorporating everything that you love, all at one place. Sign up on Myntra today and start organising your fashion feed, just the way you want to.
+            </li><br>
+          </ol>
+          <p style="font-size: 15px;font-weight: 700;color: #5c5858;">MYNTRA APP</p>
+          Myntra, India’s no. 1 online fashion destination justifies its fashion relevance by bringing something new and chic to the table on the daily. Fashion trends seem to change at lightning speed, yet the Myntra shopping app has managed to keep up without any hiccups. In addition, Myntra has vowed to serve customers to the best of its ability by introducing its first-ever loyalty program, The Myntra Insider. Gain access to priority delivery, early sales, lucrative deals and other special perks on all your shopping with the Myntra app. Download the Myntra app on your Android or IOS device today and experience shopping like never before!
+          <br><br>
+          <p style="font-size: 15px;font-weight: 700;color: #5c5858;">HISTORY OF MYNTRA</p>
+          Becoming India’s no. 1 fashion destination is not an easy feat. Sincere efforts, digital enhancements and a team of dedicated personnel with an equally loyal customer base have made Myntra the online platform that it is today. The original B2B venture for personalized gifts was conceived in 2007 but transitioned into a full-fledged ecommerce giant within a span of just a few years. By 2012, Myntra had introduced 350 Indian and international brands to its platform, and this has only grown in number each passing year. Today Myntra sits on top of the online fashion game with an astounding social media following, a loyalty program dedicated to its customers, and tempting, hard-to-say-no-to deals.
+  <br>
+          The Myntra shopping app came into existence in the year 2015 to further encourage customers’ shopping sprees. Download the app on your Android or IOS device this very minute to experience fashion like never before
+          <br><br>
+          <p style="font-size: 15px;font-weight: 700;color: #5c5858;">SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE</p>
+          Another reason why Myntra is the best of all online stores is the complete convenience that it offers. You can view your favourite brands with price options for different products in one place. A user-friendly interface will guide you through your selection process. Comprehensive size charts, product information and high-resolution images help you make the best buying decisions. You also have the freedom to choose your payment options, be it card or cash-on-delivery. The 14-day returns policy gives you more power as a buyer. Additionally, the try-and-buy option for select products takes customer-friendliness to the next level.
+  <br>
+          Enjoy the hassle-free experience as you shop comfortably from your home or your workplace. You can also shop for your friends, family and loved-ones and avail our gift services for special occasions.
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Section Ends -->
+  
+  
+  <!-- Scripts start -->
+  <script src="./assets/js/womensdata.js"></script>
+  <script src="./assets/js/bootstrap@5.3.3.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+
+  
+  <!-- Script End -->
+  </body>
+  </html>

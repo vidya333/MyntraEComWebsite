@@ -14,6 +14,8 @@ body{
 /* Custom Classes start */
 .bg-pink{background: #f41cb2;}
 .bg-gray{background: #fbfbfd;}
+.bg-orange{background: #f26a10;}
+.bg-purple{background: #bd10f2;}
 .text-pink{color: #fb56c1;}
 .text-red{color: #ee5f73;}
 .text-orange{color: #f26a10;}
@@ -167,7 +169,13 @@ footer a{
     text-decoration: none;
     color: #5c5858;
 }
-
+/* aside section starts */
+aside ul li{
+    padding: 1px 12px;
+}
+aside p{
+    padding: 6px 12px;
+}
 /* Responsive section starts */
 @media screen and (max-width:1200px) {
     .table tr{
