@@ -176,7 +176,25 @@ aside ul li{
 aside p{
     padding: 6px 12px;
 }
-/* Responsive section starts */
+
+/* Product Item Card Style starts */
+.cardImage{
+    overflow: hidden;
+}
+#addcart{
+    transition: 0.45s ease;
+    position: absolute;
+    bottom:-24%;
+}
+.cardImage:hover #addcart{
+    position: absolute;
+    bottom: 3.3px;
+}
+#addcart:active{
+    background-color: #3e4152 !important;
+    color:#ffffff !important;
+}
+/* Responsive section starts ==========================================================================================*/
 @media screen and (max-width:1200px) {
     .table tr{
         display: grid;
@@ -192,9 +210,9 @@ aside p{
         margin-left: 9px;
         
     }
-    .container-fluid{
-        --bs-gutter-x:0;
-    }
+    /* .container-fluid{
+        --bs-gutter-x:0px;
+    } */
 }
 @media screen and (max-width:992px) {
     .table tr{
