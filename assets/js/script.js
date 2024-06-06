@@ -10,7 +10,7 @@ items.forEach(item => {
         <div class = "cardImage position-relative">
           <img src="${item.image}" class="card-img-top rounded-0">
           <div class="w-100 mt-1 mx-auto">
-            <button class="btn btn-outline-danger w-100 rounded-0" onclick="addToCart(${item.id})" id="addcart">
+            <button class="btn btn-danger w-100 rounded-0" onclick="addToCart(${item.id})" id="addcart">
               Add to Cart
             </button>
           </div>
